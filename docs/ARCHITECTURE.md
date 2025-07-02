@@ -316,3 +316,17 @@ execution_log = {
 - PostgreSQL：結構化資料 + JSONB 支援
 - Redis：快取與 Session 管理
 - 未來可加入 Vector DB（Qdrant）做語義搜尋 
+
+flowchart TD
+    FE[前端 React / Flutter]
+    WS[WebSocket Gateway]
+    MQ[Message Queue (Kafka/Redis)]
+    AGENT[LangChain Agent Service]
+    TOOLS[Toolbox | classify / priority / archive / draft_reply / sort]
+    DB[(Postgres + VectorDB)]
+    NOTI[Notification Service]
+
+    FE -- 新訊息 --> WS --> MQ --> AGENT
+    AGENT --> TOOLS
+    TOOLS --> DB
+    AGENT --> NOTI --> FE 
