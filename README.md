@@ -14,13 +14,12 @@
 ---
 
 ## 1. 系統架構
-```mermaid
 flowchart TD
     FE[前端 React / Flutter]
     WS[WebSocket Gateway]
     MQ[Message Queue (Kafka/Redis)]
     AGENT[LangChain Agent Service]
-    TOOLS[Toolbox<br/>classify / priority / archive / draft_reply / sort]
+    TOOLS["Toolbox | classify / priority / archive / draft_reply / sort"]
     DB[(Postgres + VectorDB)]
     NOTI[Notification Service]
 
@@ -28,7 +27,6 @@ flowchart TD
     AGENT --> TOOLS
     TOOLS --> DB
     AGENT --> NOTI --> FE
-```
 
 ---
 
