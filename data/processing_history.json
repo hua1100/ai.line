@@ -1,0 +1,73 @@
+{
+  "logs": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "message_id": 7,
+      "timestamp": "2024-01-16T10:16:30",
+      "request": {
+        "text": "下個月的預算報告請在本週五前提交，記得包含各部門的詳細支出明細",
+        "sender_id": "boss_001",
+        "tone_profile": {
+          "name": "小王",
+          "profile": "軟體工程師，喜歡看電影和閱讀科技文章",
+          "style": "輕鬆",
+          "reply_length": "簡短",
+          "signature": "- 小王",
+          "language": "zh-tw"
+        }
+      },
+      "final_response": {
+        "category": "工作",
+        "tags": ["預算", "報告", "截止日期"],
+        "priority": 2,
+        "should_archive": false,
+        "draft": "好的，我會在週五前完成預算報告。- 小王"
+      },
+      "total_execution_time": 1.234
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "message_id": 8,
+      "timestamp": "2024-01-16T16:45:15",
+      "request": {
+        "text": "恭喜您獲得購物金 $5000！立即登入領取，活動僅限今日",
+        "sender_id": "spam_007",
+        "tone_profile": {
+          "name": "小王",
+          "style": "輕鬆",
+          "signature": "- 小王"
+        }
+      },
+      "final_response": {
+        "category": "廣告",
+        "tags": ["促銷", "可疑"],
+        "priority": 5,
+        "should_archive": true,
+        "draft": null
+      },
+      "total_execution_time": 0.856
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "message_id": 1,
+      "timestamp": "2024-01-16T17:30:00",
+      "request": {
+        "text": "明天下午的會議記得帶那個項目提案書，我們要向客戶簡報新的設計方案",
+        "sender_id": "boss_001",
+        "tone_profile": {
+          "name": "小王",
+          "style": "輕鬆",
+          "signature": "- 小王"
+        }
+      },
+      "final_response": {
+        "category": "工作",
+        "tags": ["會議", "提案書", "客戶簡報"],
+        "priority": 2,
+        "should_archive": false,
+        "draft": "好的，我會記得帶提案書。- 小王"
+      },
+      "total_execution_time": 1.567
+    }
+  ]
+}

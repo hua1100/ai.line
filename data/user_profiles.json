@@ -1,0 +1,29 @@
+{
+  "demo_user": {
+    "name": "小王",
+    "profile": "軟體工程師，喜歡看電影和閱讀科技文章，平時喜歡簡潔有效率的溝通方式",
+    "tone_style": "輕鬆",
+    "reply_length": "簡短",
+    "signature": "- 小王",
+    "language": "zh-tw",
+    "updated_at": "2024-01-15T09:00:00"
+  },
+  "user_formal": {
+    "name": "陳經理",
+    "profile": "專案經理，負責多個客戶專案，需要維持專業形象",
+    "tone_style": "正式",
+    "reply_length": "適中",
+    "signature": "Best regards, Chen",
+    "language": "zh-tw",
+    "updated_at": "2024-01-15T09:30:00"
+  },
+  "user_casual": {
+    "name": "阿明",
+    "profile": "設計師，創意工作者，喜歡輕鬆幽默的交流",
+    "tone_style": "幽默",
+    "reply_length": "詳細",
+    "signature": "😊 阿明",
+    "language": "zh-tw",
+    "updated_at": "2024-01-15T10:00:00"
+  }
+}

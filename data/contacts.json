@@ -1,0 +1,51 @@
+{
+  "boss_001": {
+    "name": "王經理",
+    "priority_boost": 1,
+    "is_starred": true,
+    "category_hint": "工作",
+    "updated_at": "2024-01-15T10:00:00"
+  },
+  "friend_002": {
+    "name": "小李",
+    "priority_boost": 0,
+    "is_starred": false,
+    "category_hint": "朋友",
+    "updated_at": "2024-01-15T11:00:00"
+  },
+  "family_003": {
+    "name": "媽媽",
+    "priority_boost": 2,
+    "is_starred": true,
+    "category_hint": "家人",
+    "updated_at": "2024-01-15T12:00:00"
+  },
+  "spam_004": {
+    "name": "科技商城",
+    "priority_boost": -2,
+    "is_starred": false,
+    "category_hint": "廣告",
+    "updated_at": "2024-01-15T13:00:00"
+  },
+  "system_005": {
+    "name": "系統管理員",
+    "priority_boost": 1,
+    "is_starred": false,
+    "category_hint": "工作",
+    "updated_at": "2024-01-15T14:00:00"
+  },
+  "colleague_006": {
+    "name": "同事小張",
+    "priority_boost": 0,
+    "is_starred": false,
+    "category_hint": "朋友",
+    "updated_at": "2024-01-15T15:00:00"
+  },
+  "spam_007": {
+    "name": "購物網站",
+    "priority_boost": -2,
+    "is_starred": false,
+    "category_hint": "廣告",
+    "updated_at": "2024-01-15T16:00:00"
+  }
+}
